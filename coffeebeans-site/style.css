@@ -1,0 +1,68 @@
+body {
+    margin:0;
+    text-align: center;
+    background-image: url(./images/coffee\ beans.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-size: 2000px 480px;
+    background-color: #615037;
+    color: white;
+    font-family: "Oswald", sans-serif;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-title {
+    font-size:100px;
+    letter-spacing: 2rem;
+}
+
+h2, h3, p {
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+.products-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-title {
+    padding: 50px 0 20px 0;
+}
+
+.product {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.card-container {
+    background-color: antiquewhite;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.img-profile{
+    width: 150px;
+    border-radius: 5px;
+}
+
+h3, h4, p{
+    text-align: center;
+}
+
+.card{
+    display: flex;
+    width:450px;
+    border: 5px dashed rgb(80, 45, 0);
+    background: rgb(136, 94, 64);
+    padding: 20px;
+    justify-content: space-around;
+    margin: 0px auto 30px auto;
+}

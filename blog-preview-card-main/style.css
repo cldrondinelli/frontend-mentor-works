@@ -1,0 +1,42 @@
+body{
+    background: rgb(247, 184, 26);
+    background-size: cover;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#main-container{
+    background: white;
+    max-width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 10px 10px black;
+}
+
+img{
+    border-radius: 10px;
+}
+
+.button-learning{
+    height: 30px;
+    width: 62px;
+    font-weight: 400;
+    color:black;
+    background-color:rgb(247, 184, 26);
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 10px;
+    border: none;
+}
+
+.user{
+    float: right;
+}

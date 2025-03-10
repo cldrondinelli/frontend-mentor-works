@@ -1,0 +1,40 @@
+body {
+    background: hsl(217, 54%, 11%);
+    color: white;
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-card {
+   background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    margin: 10px;
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+img {
+    width:100%;
+    border-radius: 10px;
+}
+
+.text, p {
+    color: grey;
+}
+
+strong {
+    color: white;
+}
+
+ol {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.text-equilibrium {
+    color: hsl(178, 100%, 50%);
+}
